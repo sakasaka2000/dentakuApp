@@ -1,6 +1,0 @@
-runtime: python37
-entrypoint: gunicorn -b :$PORT mytest.wsgi.application
-
-handlers:
-  - url:  .*
-    script:  auto
